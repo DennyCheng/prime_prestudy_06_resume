@@ -1,0 +1,94 @@
+body{
+    margin-right: 200px;
+    margin-left: 200px;
+    font-family: Questrial, sans-serif;
+    background-color:#ffffff;
+}
+.hidden{
+  display: none;
+}
+
+button {
+  background: #FF7F50;
+  border-radius: 5px;
+  border: 5px solid #6495ED;
+  color: #FFD700;
+  font-size: 15px;
+  left: 45%;
+  padding: 15px 35px 15px 35px;
+  position: absolute;
+  top: 50%;
+}
+
+button:hover {
+  background: #6495ED;
+  color: #FFD700;
+  border: 1px solid #6495ED;
+  transition-duration: 0.5s;
+}
+
+.profile{
+    height: auto;
+    width: auto;
+    max-width: 290px;
+    max-height: 290px;
+    padding: 1px;
+    border: 1px solid #021a40;
+    margin: 15px;
+    transform: rotate(4deg);
+    float: right;
+    border-radius: 25%;
+    .background-color:blue;
+    transition: background-color 0.25 ease-in-out;
+}
+.profile:hover{
+  background-color:blue;
+  opacity:.5;
+}
+
+header h1{
+    text-align:left;
+    padding-top: 23px;
+}
+
+header p{
+    text-align:left;
+}
+
+hr {
+    color: #CCCCCC;
+}
+
+main h2 {
+	letter-spacing: 1.5px;
+  text-decoration: underline;
+
+}
+.education{
+  margin:10px;
+}
+.education p{
+	line-height: 15px;
+}
+
+.experience {
+	line-height: 20px;
+  margin:10px;
+
+}
+
+.experience p{
+	font-weight:bold;
+  margin:10px;
+}
+
+ul h2{
+  margin:10px;
+}
+header{
+  margin:10px;
+}
+
+html{
+  background: #AFE7FA;
+}
